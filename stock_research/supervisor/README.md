@@ -41,7 +41,6 @@ supervisor/
 #### 3. **Current Time Tool**
 
 * **Function**: Returns the current time.
-* **Constraint**: Since Sub-Agents cannot use OpenAI's built-in tools, this functionality is implemented as a custom **Agent Tool** and attached directly to the **Supervisor Agent**.
 
 #### 4. **Supervisor Agent**
 
@@ -49,7 +48,7 @@ supervisor/
 
   * Analyzes user input.
   * Delegates tasks to the appropriate Sub-Agent.
-  * Executes internal tools (e.g., current time) when needed.
+  * Executes internal tools when needed.
 
 ---
 
